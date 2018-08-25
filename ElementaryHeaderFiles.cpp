@@ -11,8 +11,9 @@ int main()
 	//a1.setArray();
 	//a1.displayArray();
 	//a1.bubbleSort();
-	double s = a1.computeTime();
 	//a1.QuickSort(0, a1.length() - 1);
+	//a1.MergeSort(0, a1.length() - 1);
+	double s = a1.computeTime();
 	a1.displayArray();
 	cout << endl << "Total time required : ";
 	cout << s << endl;

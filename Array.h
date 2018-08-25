@@ -16,6 +16,8 @@ public:
 	void QuickSort(int, int);
 	void swap(int*, int*);
 	int partition(int, int);
+	void MergeSort(int, int);
+	void merge(int, int, int);
 	int length();
 	double computeTime();
 	void generateRandomSequence();
